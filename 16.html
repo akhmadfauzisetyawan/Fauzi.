@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gambar 5</title>
+</head>
+
+<body>
+    <P>
+    <h3>MENU</h3>
+    </P>
+    <p><a href="https://id.pinterest.com/pin/576812664775683884/" class="btn btn-primary" role="button">Lihat Gambar
+        </a>
+    <p>
+        <br><br>
+    <p><a href="https://drive.google.com/file/d/1ilROdWr4NzNuEtUUKQFm1RURDdrwB2_f/view?usp=sharing"
+            class="btn btn-primary">Download
+            Gambar
+        </a>
+    <p>
+        <br><br>
+        <input type="text" value="https://id.pinterest.com/pin/576812664775683884/" id="myInput">
+        <button onclick="myFunction()">Copy text</button>
+        <br><br>
+        <script>
+            function myFunction() {
+                /* Get the text field */
+                var copyText = document.getElementById("myInput");
+
+                /* Select the text field */
+                copyText.select();
+                copyText.setSelectionRange(0, 99999); /* For mobile devices */
+
+                /* Copy the text inside the text field */
+                navigator.clipboard.writeText(copyText.value);
+
+                /* Alert the copied text */
+                alert("Copied the text: " + copyText.value);
+            }
+        </script>
+
+
+</body>
+
+</html>

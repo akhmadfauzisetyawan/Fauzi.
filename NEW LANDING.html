@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>-ANIME-</title>
+    <link rel="stylesheet" type="text/css" href="assets/css/bootstrap.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <style>
+        .box {
+            padding: 40px;
+            margin: 9px 0px;
+        }
+
+        body {
+            background-image: url("japan.jpg");
+            background-repeat: no-repeat;
+            background-size: cover
+        }
+    </style>
+</head>
+
+<body>
+    <h4>
+        <font color="red">Yuk Putar Musik Di Web IPAN</font>
+    </h4>
+    <audio controls>
+        <source src="Zara Larsson - Uncover (Afterfab Remix)(MP3_70K)_1.mp3" type="audio/mpeg">
+    </audio>
+    <div class="container mt-5">
+        <div class="row">
+            <div class="col-sm">
+                <div class="box">
+                    <h3>
+                        <font color="yellow">Gambar 1</font>
+                        </h2>
+                        <img src="12.jpg" width="220" height="340" alt="...">
+                        <meta charset="UTF-8">
+                        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+                        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+                        <title>Document</title>
+
+                </div>
+            </div>
+            <div class="col-sm">
+                <div class="box">
+                    <h3>
+                        <font color="yellow">Gambar 2</font>
+                    </h3>
+                    <img src="14.jpg" width="260" height="450" alt="...">
+
+
+                </div>
+            </div>
+            <div class="col-sm">
+                <div class="box">
+                    <h2>
+                        <font color="yellow">Gambar 3</font>
+                    </h2>
+                    <img src="15.jpg" width="260" height="400" alt="...">
+                </div>
+            </div>
+            <div class="col-sm">
+                <div class="box">
+                    <h2>
+                        <font color="yellow">Gambar 4</font>
+                    </h2>
+                    <img src="16.jpg" width="360" height="550" alt="...">
+                </div>
+            </div>
+            <div class="col-sm">
+                <div class="box">
+                    <h2>
+                        <font color="yellow">Gambar 6</font>
+                    </h2>
+                    <img src="17.jpg" width="360" height="550" alt="...">
+                    <br><br>
+                    <div class="col-sm">
+                        <div class="box">
+                        </div>
+                    </div>
+                    <p>
+                    <h2>INFO TENTANG WEB</h2>
+                    </p>
+                    <style>
+                        .multiselect {
+                            width: 200px;
+                        }
+
+                        .selectBox {
+                            position: relative;
+                        }
+
+                        .selectBox select {
+                            width: 100%;
+                        }
+
+                        .overSelect {
+                            position: absolute;
+                            left: 0;
+                            right: 0;
+                            top: 0;
+                            bottom: 0;
+                        }
+
+                        #checkboxes {
+                            display: none;
+                            border: 1px #a0a0a0 solid;
+                        }
+
+                        #checkboxes label {
+                            display: block;
+                        }
+
+                        #checkboxes label:hover {
+                            background-color: #1e90ff;
+                        }
+                    </style>
+                    <form>
+                        <div class="multiselect">
+                            <div class="selectBox" onclick="showCheckboxes()">
+                                <select>
+                                    <option readonly>Pilih opsi</option>
+                                </select>
+                                <div class="overSelect"></div>
+                            </div>
+                            <div id="checkboxes">
+                                <label for="satu">
+                                    <a href="12.html">Gambar 1</a></label>
+                                <label for="dua">
+                                    <a href="13.html">Gambar 2</a></label>
+                                <label for="tiga">
+                                    <a href="14.html">Gambar 3</a></label>
+                                <label for="satu">
+                                    <a href="15.html">Gambar 4</a></label>
+                                <label for="satu">
+                                    <a href="16.html">Gambar 5</a></label>
+                            </div>
+                        </div>
+                    </form>
+
+                    <script>
+                        var expanded = false;
+                        function showCheckboxes() {
+                            var checkboxes = document.getElementById("checkboxes");
+                            if (!expanded) {
+                                checkboxes.style.display = "block";
+                                expanded = true;
+                            } else {
+                                checkboxes.style.display = "none";
+                                expanded = false;
+                            }
+                        }
+                    </script>
+                    </style>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
